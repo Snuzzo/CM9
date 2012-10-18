@@ -1,663 +1,275 @@
-<!DOCTYPE html>
-<html>
-  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>404 · GitHub</title>
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
-    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144.png" />
-
-    
-    
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
-    <meta content="authenticity_token" name="csrf-param" />
-<meta content="mBeE3PENhFWijL3ucZ7L8q+iB/wuI1d2r1xs3+kSpCY=" name="csrf-token" />
-
-    <link href="https://a248.e.akamai.net/assets.github.com/assets/github-03fe491ce51a79a6bbd92168366bd017760f10a3.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="https://a248.e.akamai.net/assets.github.com/assets/github2-f058dd0a2470c893977124d69336e4789671f5db.css" media="screen" rel="stylesheet" type="text/css" />
-    
-
-
-    <script src="https://a248.e.akamai.net/assets.github.com/assets/frameworks-974473a941a983b46f11833dc8ffba8414698ff7.js" type="text/javascript"></script>
-    <script src="https://a248.e.akamai.net/assets.github.com/assets/github-7f99f9b2d347e02a780564f416d20d2622803cd5.js" type="text/javascript"></script>
-    
-
-    
-  </head>
-
-
-  <body class="logged_out   vis-public fork env-production ">
-    <div id="wrapper">
-
-    
-    
-
-      <div id="header" class="true clearfix">
-        <div class="container clearfix">
-          <a class="site-logo " href="https://github.com/">
-            <img alt="GitHub" class="github-logo-4x" height="30" src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov7@4x.png?1340659530" />
-            <img alt="GitHub" class="github-logo-4x-hover" height="30" src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov7@4x-hover.png?1340659530" />
-          </a>
-
-
-                  <!--
-      make sure to use fully qualified URLs here since this nav
-      is used on error pages on other domains
-    -->
-    <ul class="top-nav logged_out">
-        <li class="pricing"><a href="https://github.com/plans">Signup and Pricing</a></li>
-        <li class="explore"><a href="https://github.com/explore">Explore GitHub</a></li>
-      <li class="features"><a href="https://github.com/features">Features</a></li>
-        <li class="blog"><a href="https://github.com/blog">Blog</a></li>
-      <li class="login"><a href="https://github.com/login?return_to=%2Fdownloads%2Fkozzer%2Fandroid%2Fdefault.xml">Sign in</a></li>
-    </ul>
-
-
-
-          
-        </div>
-      </div>
-
-      
-
-      
-
-
-        <div class="site clearfix">
-          <div id="site-container" class="context-loader-container" data-pjax-container>
-            
-            
-
-<style type="text/css">
-    #header{
-        border-bottom: 0;
-    }
-    .site {
-        padding: 0;
-    }
-    #site-container {
-        width: 100%;
-    }
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-    #parallax_wrapper {
-      position: relative;
-      z-index: 0;
-      margin-bottom: 50px;
-    }
-    #parallax_field{
-        overflow: hidden;
-        position: absolute;
-        left: 0;
-        top: 0;
-        height: 370px;
-        width: 100%;
-    }
-    #parallax_field #parallax_bg {
-        position: absolute;
-        top: -20px;
-        left: -20px;
-        width: 110%;
-        height: 425px;
-        z-index: 1;
-    }
-    #parallax_illustration {
-        display: block;
-        margin: 0 auto;
-        width: 940px;
-        height: 370px;
-        position: relative;
-        overflow: hidden;
-        clear: both;
-    }
-    #parallax_illustration #parallax_error_text {
-        position: absolute;
-        top: 72px;
-        left: 72px;
-        z-index: 10;
-    }
-    #parallax_illustration #parallax_octocat {
-        position: absolute;
-        top: 94px;
-        left: 356px;
-        z-index: 9;
-    }
-    #parallax_illustration #parallax_speeder {
-        position: absolute;
-        top: 150px;
-        left: 432px;
-        z-index: 8;
-    }
-    #parallax_illustration #parallax_octocatshadow {
-        position: absolute;
-        top: 297px;
-        left: 371px;
-        z-index: 7;
-    }
-    #parallax_illustration #parallax_speedershadow {
-        position: absolute;
-        top: 263px;
-        left: 442px;
-        z-index: 6;
-    }
-    #parallax_illustration #parallax_building_1 {
-        position: absolute;
-        top: 73px;
-        left: 467px;
-        z-index: 5;
-    }
-    #parallax_illustration #parallax_building_2 {
-        position: absolute;
-        top: 113px;
-        left: 762px;
-        z-index: 4;
-    }
-    #footer-push {
-      height: 280px;
-    }
-    #footer {
-        margin-top: 0px;
-        z-index: 12;
-    }
-</style>
-
-<div id="parallax_wrapper">
-
-<div id="parallax_field">
-    <img alt="building" class="js-plaxify" data-invert="true" data-xrange="0" data-yrange="20" height="415" id="parallax_bg" src="https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_bg.jpg?1340659530" width="940" />
-</div>
-<div id="parallax_illustration">
-  <img alt="404 | &ldquo;This is not the web page you are looking for&rdquo;" class="js-plaxify" data-xrange="20" data-yrange="10" height="249" id="parallax_error_text" src="https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_errortext.png?1340659530" width="271" />
-  <img alt="Octobi Wan Catnobi" class="js-plaxify" data-xrange="10" data-yrange="10" height="230" id="parallax_octocat" src="https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_octocat.png?1340659530" width="188" />
-  <img alt="land speeder" class="js-plaxify" data-xrange="10" data-yrange="10" height="156" id="parallax_speeder" src="https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_speeder.png?1340659530" width="440" />
-  <img alt="Octobi Wan Catnobi's shadow" class="js-plaxify" data-xrange="10" data-yrange="10" height="49" id="parallax_octocatshadow" src="https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_octocatshadow.png?1340659530" width="166" />
-  <img alt="land speeder's shadow" class="js-plaxify" data-xrange="10" data-yrange="10" height="75" id="parallax_speedershadow" src="https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_speedershadow.png?1340659530" width="430" />
-  <img alt="building" class="js-plaxify" data-invert="true" data-xrange="50" data-yrange="20" height="123" id="parallax_building_1" src="https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_building_1.png?1340659530" width="304" />
-  <img alt="building" class="js-plaxify" data-invert="true" data-xrange="75" data-yrange="30" height="50" id="parallax_building_2" src="https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_building_2.png?1340659530" width="116" />
-</div>
-
-</div>
-
-          </div>
-          <div class="context-overlay"></div>
-        </div>
-      <div id="footer-push"></div><!-- hack for sticky footer -->
-    </div><!-- end of wrapper - hack for sticky footer -->
-
-      <!-- footer -->
-      <div id="footer" >
-        
-  <div class="upper_footer">
-     <div class="container clearfix">
-
-       <!--[if IE]><h4 id="blacktocat_ie">GitHub Links</h4><![endif]-->
-       <![if !IE]><h4 id="blacktocat">GitHub Links</h4><![endif]>
-
-       <ul class="footer_nav">
-         <h4>GitHub</h4>
-         <li><a href="https://github.com/about">About</a></li>
-         <li><a href="https://github.com/blog">Blog</a></li>
-         <li><a href="https://github.com/features">Features</a></li>
-         <li><a href="https://github.com/contact">Contact &amp; Support</a></li>
-         <li><a href="http://training.github.com/">Training</a></li>
-         <li><a href="http://enterprise.github.com/">GitHub Enterprise</a></li>
-         <li><a href="http://status.github.com/">Site Status</a></li>
-       </ul>
-
-       <ul class="footer_nav">
-         <h4>Clients</h4>
-         <li><a href="http://mac.github.com/">GitHub for Mac</a></li>
-         <li><a href="http://windows.github.com/">GitHub for Windows</a></li>
-         <li><a href="http://eclipse.github.com/">GitHub for Eclipse</a></li>
-         <li><a href="http://mobile.github.com/">GitHub Mobile Apps</a></li>
-       </ul>
-
-       <ul class="footer_nav">
-         <h4>Tools</h4>
-         <li><a href="http://get.gaug.es/">Gauges: Web analytics</a></li>
-         <li><a href="http://speakerdeck.com">Speaker Deck: Presentations</a></li>
-         <li><a href="https://gist.github.com">Gist: Code snippets</a></li>
-
-         <h4 class="second">Extras</h4>
-         <li><a href="http://jobs.github.com/">Job Board</a></li>
-         <li><a href="http://shop.github.com/">GitHub Shop</a></li>
-         <li><a href="http://octodex.github.com/">The Octodex</a></li>
-       </ul>
-
-       <ul class="footer_nav">
-         <h4>Documentation</h4>
-         <li><a href="http://help.github.com/">GitHub Help</a></li>
-         <li><a href="http://developer.github.com/">Developer API</a></li>
-         <li><a href="http://github.github.com/github-flavored-markdown/">GitHub Flavored Markdown</a></li>
-         <li><a href="http://pages.github.com/">GitHub Pages</a></li>
-       </ul>
-
-     </div><!-- /.site -->
-  </div><!-- /.upper_footer -->
-
-<div class="lower_footer">
-  <div class="container clearfix">
-    <!--[if IE]><div id="legal_ie"><![endif]-->
-    <![if !IE]><div id="legal"><![endif]>
-      <ul>
-          <li><a href="https://github.com/site/terms">Terms of Service</a></li>
-          <li><a href="https://github.com/site/privacy">Privacy</a></li>
-          <li><a href="https://github.com/security">Security</a></li>
-      </ul>
-
-      <p>&copy; 2012 <span title="0.04344s from fe17.rs.github.com">GitHub</span> Inc. All rights reserved.</p>
-    </div><!-- /#legal or /#legal_ie-->
-
-  </div><!-- /.site -->
-</div><!-- /.lower_footer -->
-
-
-      </div><!-- /#footer -->
-
-    
-
-<div id="keyboard_shortcuts_pane" class="instapaper_ignore readability-extra" style="display:none">
-  <h2>Keyboard Shortcuts <small><a href="#" class="js-see-all-keyboard-shortcuts">(see all)</a></small></h2>
-
-  <div class="columns threecols">
-    <div class="column first">
-      <h3>Site wide shortcuts</h3>
-      <dl class="keyboard-mappings">
-        <dt>s</dt>
-        <dd>Focus command bar</dd>
-      </dl>
-      <dl class="keyboard-mappings">
-        <dt>?</dt>
-        <dd>Bring up this help dialog</dd>
-      </dl>
-    </div><!-- /.column.first -->
-
-    <div class="column middle" style='display:none'>
-      <h3>Commit list</h3>
-      <dl class="keyboard-mappings">
-        <dt>j</dt>
-        <dd>Move selection down</dd>
-      </dl>
-      <dl class="keyboard-mappings">
-        <dt>k</dt>
-        <dd>Move selection up</dd>
-      </dl>
-      <dl class="keyboard-mappings">
-        <dt>c <em>or</em> o <em>or</em> enter</dt>
-        <dd>Open commit</dd>
-      </dl>
-      <dl class="keyboard-mappings">
-        <dt>y</dt>
-        <dd>Expand URL to its canonical form</dd>
-      </dl>
-    </div><!-- /.column.first -->
-
-    <div class="column last js-hidden-pane" style='display:none'>
-      <h3>Pull request list</h3>
-      <dl class="keyboard-mappings">
-        <dt>j</dt>
-        <dd>Move selection down</dd>
-      </dl>
-      <dl class="keyboard-mappings">
-        <dt>k</dt>
-        <dd>Move selection up</dd>
-      </dl>
-      <dl class="keyboard-mappings">
-        <dt>o <em>or</em> enter</dt>
-        <dd>Open issue</dd>
-      </dl>
-      <dl class="keyboard-mappings">
-        <dt><span class="platform-mac">⌘</span><span class="platform-other">ctrl</span> <em>+</em> enter</dt>
-        <dd>Submit comment</dd>
-      </dl>
-      <dl class="keyboard-mappings">
-        <dt><span class="platform-mac">⌘</span><span class="platform-other">ctrl</span> <em>+</em> shift p</dt>
-        <dd>Preview comment</dd>
-      </dl>
-    </div><!-- /.columns.last -->
-
-  </div><!-- /.columns.equacols -->
-
-  <div class="js-hidden-pane" style='display:none'>
-    <div class="rule"></div>
-
-    <h3>Issues</h3>
-
-    <div class="columns threecols">
-      <div class="column first">
-        <dl class="keyboard-mappings">
-          <dt>j</dt>
-          <dd>Move selection down</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>k</dt>
-          <dd>Move selection up</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>x</dt>
-          <dd>Toggle selection</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>o <em>or</em> enter</dt>
-          <dd>Open issue</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt><span class="platform-mac">⌘</span><span class="platform-other">ctrl</span> <em>+</em> enter</dt>
-          <dd>Submit comment</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt><span class="platform-mac">⌘</span><span class="platform-other">ctrl</span> <em>+</em> shift p</dt>
-          <dd>Preview comment</dd>
-        </dl>
-      </div><!-- /.column.first -->
-      <div class="column last">
-        <dl class="keyboard-mappings">
-          <dt>c</dt>
-          <dd>Create issue</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>l</dt>
-          <dd>Create label</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>i</dt>
-          <dd>Back to inbox</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>u</dt>
-          <dd>Back to issues</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>/</dt>
-          <dd>Focus issues search</dd>
-        </dl>
-      </div>
-    </div>
-  </div>
-
-  <div class="js-hidden-pane" style='display:none'>
-    <div class="rule"></div>
-
-    <h3>Issues Dashboard</h3>
-
-    <div class="columns threecols">
-      <div class="column first">
-        <dl class="keyboard-mappings">
-          <dt>j</dt>
-          <dd>Move selection down</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>k</dt>
-          <dd>Move selection up</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>o <em>or</em> enter</dt>
-          <dd>Open issue</dd>
-        </dl>
-      </div><!-- /.column.first -->
-    </div>
-  </div>
-
-  <div class="js-hidden-pane" style='display:none'>
-    <div class="rule"></div>
-
-    <h3>Network Graph</h3>
-    <div class="columns equacols">
-      <div class="column first">
-        <dl class="keyboard-mappings">
-          <dt><span class="badmono">←</span> <em>or</em> h</dt>
-          <dd>Scroll left</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt><span class="badmono">→</span> <em>or</em> l</dt>
-          <dd>Scroll right</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt><span class="badmono">↑</span> <em>or</em> k</dt>
-          <dd>Scroll up</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt><span class="badmono">↓</span> <em>or</em> j</dt>
-          <dd>Scroll down</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>t</dt>
-          <dd>Toggle visibility of head labels</dd>
-        </dl>
-      </div><!-- /.column.first -->
-      <div class="column last">
-        <dl class="keyboard-mappings">
-          <dt>shift <span class="badmono">←</span> <em>or</em> shift h</dt>
-          <dd>Scroll all the way left</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>shift <span class="badmono">→</span> <em>or</em> shift l</dt>
-          <dd>Scroll all the way right</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>shift <span class="badmono">↑</span> <em>or</em> shift k</dt>
-          <dd>Scroll all the way up</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>shift <span class="badmono">↓</span> <em>or</em> shift j</dt>
-          <dd>Scroll all the way down</dd>
-        </dl>
-      </div><!-- /.column.last -->
-    </div>
-  </div>
-
-  <div class="js-hidden-pane" style='display:none'>
-    <div class="rule"></div>
-    <div class="columns threecols">
-      <div class="column first js-hidden-pane" style='display:none'>
-        <h3>Source Code Browsing</h3>
-        <dl class="keyboard-mappings">
-          <dt>t</dt>
-          <dd>Activates the file finder</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>l</dt>
-          <dd>Jump to line</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>w</dt>
-          <dd>Switch branch/tag</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>y</dt>
-          <dd>Expand URL to its canonical form</dd>
-        </dl>
-      </div>
-    </div>
-  </div>
-
-  <div class="js-hidden-pane" style='display:none'>
-    <div class="rule"></div>
-    <div class="columns threecols">
-      <div class="column first">
-        <h3>Browsing Commits</h3>
-        <dl class="keyboard-mappings">
-          <dt><span class="platform-mac">⌘</span><span class="platform-other">ctrl</span> <em>+</em> enter</dt>
-          <dd>Submit comment</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>escape</dt>
-          <dd>Close form</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>p</dt>
-          <dd>Parent commit</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>o</dt>
-          <dd>Other parent commit</dd>
-        </dl>
-      </div>
-    </div>
-  </div>
-
-  <div class="js-hidden-pane" style='display:none'>
-    <div class="rule"></div>
-    <h3>Notifications</h3>
-
-    <div class="columns threecols">
-      <div class="column first">
-        <dl class="keyboard-mappings">
-          <dt>j</dt>
-          <dd>Move selection down</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>k</dt>
-          <dd>Move selection up</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>o <em>or</em> enter</dt>
-          <dd>Open notification</dd>
-        </dl>
-      </div><!-- /.column.first -->
-
-      <div class="column second">
-        <dl class="keyboard-mappings">
-          <dt>e <em>or</em> shift i <em>or</em> y</dt>
-          <dd>Mark as read</dd>
-        </dl>
-        <dl class="keyboard-mappings">
-          <dt>shift m</dt>
-          <dd>Mute thread</dd>
-        </dl>
-      </div><!-- /.column.first -->
-    </div>
-  </div>
-
-</div>
-
-    <div id="markdown-help" class="instapaper_ignore readability-extra">
-  <h2>Markdown Cheat Sheet</h2>
-
-  <div class="cheatsheet-content">
-
-  <div class="mod">
-    <div class="col">
-      <h3>Format Text</h3>
-      <p>Headers</p>
-      <pre>
-# This is an &lt;h1&gt; tag
-## This is an &lt;h2&gt; tag
-###### This is an &lt;h6&gt; tag</pre>
-     <p>Text styles</p>
-     <pre>
-*This text will be italic*
-_This will also be italic_
-**This text will be bold**
-__This will also be bold__
-
-*You **can** combine them*
-</pre>
-    </div>
-    <div class="col">
-      <h3>Lists</h3>
-      <p>Unordered</p>
-      <pre>
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b</pre>
-     <p>Ordered</p>
-     <pre>
-1. Item 1
-2. Item 2
-3. Item 3
-   * Item 3a
-   * Item 3b</pre>
-    </div>
-    <div class="col">
-      <h3>Miscellaneous</h3>
-      <p>Images</p>
-      <pre>
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-</pre>
-     <p>Links</p>
-     <pre>
-http://github.com - automatic!
-[GitHub](http://github.com)</pre>
-<p>Blockquotes</p>
-     <pre>
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-</pre>
-    </div>
-  </div>
-  <div class="rule"></div>
-
-  <h3>Code Examples in Markdown</h3>
-  <div class="col">
-      <p>Syntax highlighting with <a href="http://github.github.com/github-flavored-markdown/" title="GitHub Flavored Markdown" target="_blank">GFM</a></p>
-      <pre>
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```</pre>
-    </div>
-    <div class="col">
-      <p>Or, indent your code 4 spaces</p>
-      <pre>
-Here is a Python code example
-without syntax highlighting:
-
-    def foo:
-      if not bar:
-        return true</pre>
-    </div>
-    <div class="col">
-      <p>Inline code for comments</p>
-      <pre>
-I think you should use an
-`&lt;addr&gt;` element here instead.</pre>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-    <div id="ajax-error-message" class="flash flash-error">
-      <span class="mini-icon mini-icon-exclamation"></span>
-      Something went wrong with that request. Please try again.
-      <a href="#" class="mini-icon mini-icon-remove-close ajax-error-dismiss"></a>
-    </div>
-
-    <div id="logo-popup">
-      <h2>Looking for the GitHub logo?</h2>
-      <ul>
-        <li>
-          <h4>GitHub Logo</h4>
-          <a href="http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip"><img alt="Github_logo" src="https://a248.e.akamai.net/assets.github.com/images/modules/about_page/github_logo.png?1340659530" /></a>
-          <a href="http://github-media-downloads.s3.amazonaws.com/GitHub_Logos.zip" class="minibutton download">Download</a>
-        </li>
-        <li>
-          <h4>The Octocat</h4>
-          <a href="http://github-media-downloads.s3.amazonaws.com/Octocats.zip"><img alt="Octocat" src="https://a248.e.akamai.net/assets.github.com/images/modules/about_page/octocat.png?1340659530" /></a>
-          <a href="http://github-media-downloads.s3.amazonaws.com/Octocats.zip" class="minibutton download">Download</a>
-        </li>
-      </ul>
-    </div>
-
-    
-    
-    <span id='server_response_time' data-time='0.04510' data-host='fe17'></span>
-    
-  </body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/ics"
+           remote="github"
+           sync-j="4" />
+
+  <project path="build" name="CyanogenMod/android_build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="android" name="Chad0989/android" />
+  <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="bionic" name="CyanogenMod/android_bionic" />
+  <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
+  <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" />
+  <project path="development" name="CyanogenMod/android_development" />
+  <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="device/htc/msm8660-common" name="Chad0989/android_device_htc_msm8660-common" />
+  <project path="device/htc/vigor" name="Chad0989/device_htc_vigor" />
+  <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
+  <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/astl" name="CyanogenMod/android_external_astl" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" />
+  <project path="external/bison" name="CyanogenMod/android_external_bison" />
+  <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
+  <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" />
+  <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" />
+  <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" />
+  <project path="external/bootmenu" name="CyanogenMod/android_external_bootmenu" />
+  <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
+  <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
+  <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
+  <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
+  <project path="external/clang" name="CyanogenMod/android_external_clang" />
+  <project path="external/collada" name="platform/external/collada" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/dbus" name="CyanogenMod/android_external_dbus" />
+  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
+  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" />
+  <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
+  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" />
+  <project path="external/easymock" name="CyanogenMod/android_external_easymock" />
+  <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" />
+  <project path="external/embunit" name="CyanogenMod/android_external_embunit" />
+  <project path="external/emma" name="CyanogenMod/android_external_emma" />
+  <project path="external/esd" name="CyanogenMod/android_external_esd" />
+  <project path="external/expat" name="CyanogenMod/android_external_expat" />
+  <project path="external/eyes-free" name="platform/external/eyes-free" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" />
+  <project path="external/flac" name="CyanogenMod/android_external_flac" />
+  <project path="external/freetype" name="CyanogenMod/android_external_freetype" />
+  <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" />
+  <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" />
+  <project path="external/giflib" name="CyanogenMod/android_external_giflib" />
+  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/grub" name="platform/external/grub" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/gtest" name="CyanogenMod/android_external_gtest" />
+  <project path="external/guava" name="CyanogenMod/android_external_guava" />
+  <project path="external/harfbuzz" name="platform/external/harfbuzz" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/hyphenation" name="platform/external/hyphenation" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" />
+  <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" />
+  <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" />
+  <project path="external/iptables" name="CyanogenMod/android_external_iptables" />
+  <project path="external/javasqlite" name="platform/external/javasqlite" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/javassist" name="platform/external/javassist" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/jdiff" name="CyanogenMod/android_external_jdiff" />
+  <project path="external/jhead" name="CyanogenMod/android_external_jhead" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg-turbo" />
+  <project path="external/jsilver" name="platform/external/jsilver" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
+  <project path="external/junit" name="CyanogenMod/android_external_junit" />
+  <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
+  <project path="external/libffi" name="CyanogenMod/android_external_libffi" />
+  <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" />
+  <project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" />
+  <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
+  <project path="external/libphonenumber" name="CyanogenMod/android_external_libphonenumber" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" />
+  <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" />
+  <project path="external/libyuv" name="platform/external/libyuv" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" />
+  <project path="external/libxslt" name="platform/external/libxslt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/llvm" name="CyanogenMod/android_external_llvm" />
+  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
+  <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/mesa3d" name="CyanogenMod/android_external_mesa3d" />
+  <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/mockwebserver" name="platform/external/mockwebserver" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" />
+  <project path="external/netcat" name="CyanogenMod/android_external_netcat" />
+  <project path="external/netperf" name="CyanogenMod/android_external_netperf" />
+  <project path="external/neven" name="CyanogenMod/android_external_neven" />
+  <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" />
+  <project path="external/oauth" name="CyanogenMod/android_external_oauth" />
+  <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
+  <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
+  <project path="external/pcre" name="platform/external/pcre" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/ping" name="CyanogenMod/android_external_ping" />
+  <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
+  <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
+  <project path="external/proguard" name="CyanogenMod/android_external_proguard" />
+  <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" />
+  <project path="external/qemu" name="CyanogenMod/android_external_qemu" />
+  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/quake" name="CyanogenMod/android_external_quake" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" revision="master" />
+  <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" />
+  <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
+  <project path="external/speex" name="CyanogenMod/android_external_speex" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" />
+  <project path="external/srec" name="CyanogenMod/android_external_srec" />
+  <project path="external/srtp" name="platform/external/srtp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
+  <project path="external/strace" name="CyanogenMod/android_external_strace" />
+  <project path="external/svox" name="CyanogenMod/android_external_svox" />
+  <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
+  <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" />
+  <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
+  <project path="external/v8" name="CyanogenMod/android_external_v8" />
+  <project path="external/valgrind" name="CyanogenMod/android_external_valgrind" />
+  <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
+  <project path="external/webp" name="CyanogenMod/android_external_webp" />
+  <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
+  <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" />
+  <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" />
+  <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
+  <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
+  <project path="frameworks/base" name="Chad0989/android_frameworks_base" />
+  <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
+  <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
+  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="kernel/htc/vigor-3.0" name="Snuzzo/vigor_aosp_kernel" remote="github" revision="master" />
+  <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
+  <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" />
+  <project path="hardware/broadcom/wlan" name="dmeadows013/platform_hardware_broadcom_wlan" />
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
+  <project path="libcore" name="CyanogenMod/android_libcore" />
+  <project path="ndk" name="CyanogenMod/android_ndk" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
+  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
+  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
+  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
+  <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" revision="gingerbread" />
+  <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" />
+  <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
+  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
+  <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
+  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
+  <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
+  <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
+  <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
+  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
+  <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" />
+  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
+  <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
+  <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
+  <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
+  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
+  <project path="packages/providers/DrmProvider" name="CyanogenMod/android_packages_providers_DrmProvider" />
+  <project path="packages/providers/GoogleContactsProvider" name="CyanogenMod/android_packages_providers_GoogleContactsProvider" />
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
+  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
+  <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
+  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
+  <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" />
+  <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
+  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/htc/vigor" name="Chad0989/vendor_htc_vigor" />
+  <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
+  <project path="vendor/qcom/opensource/omx/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-audio" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" />
+  <project path="vendor/qcom/opensource/omx/mm-video" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-video" />
+  <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
+  
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+  <project path="sdk" name="CyanogenMod/android_sdk" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
+  <project path="system/core" name="CyanogenMod/android_system_core" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" />
+  <project path="system/media" name="CyanogenMod/android_system_media" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" />
+  <project path="system/su" name="CyanogenMod/android_system_su" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" />
+</manifest>
