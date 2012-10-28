@@ -29,8 +29,8 @@
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="device/htc/msm8660-common" name="Chad0989/android_device_htc_msm8660-common" />
-  <project path="device/htc/vigor" name="Chad0989/device_htc_vigor" />
+  <project path="device/htc/msm8660-common" name="Snuzzo/android_device_htc_msm8660-common" remote="github" revision="aokp-ics" />
+  <project path="device/htc/vigor" name="Snuzzo/device_htc_vigor" remote="github" revision="aokp-ics" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -175,7 +175,7 @@
   <project path="kernel/htc/vigor-3.0" name="Snuzzo/vigor_aosp_kernel" remote="github" revision="master" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
   <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" />
-  <project path="hardware/broadcom/wlan" name="dmeadows013/platform_hardware_broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="AOKP/platform_hardware_broadcom_wlan" remote="github" revision="ics"/>
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
@@ -254,7 +254,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
-  <project path="vendor/htc/vigor" name="Chad0989/vendor_htc_vigor" />
+  <project path="vendor/htc/vigor" name="Snuzo/vendor_htc_vigor" remote="github" revision="aokp-ics" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" />
